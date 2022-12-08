@@ -61,9 +61,11 @@ input("Do you have a topic you would like to start with? (y/n))
 To run the program, execute the file run.exe, then follow the prompts.
 
 To run the program with the pregathered repository:
+
 `bash partialrun.sh`
 
 To run the full program and manually gather the repository:
+
 `bash fullrun.sh`
 
 Some possible errors that might be encountered include 1).a connect error, 2).timeout error, or possibly 3).a naming error.
