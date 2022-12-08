@@ -61,6 +61,7 @@ input("Do you have a topic you would like to start with? (y/n))
 To run the program, execute the file run.exe, then follow the prompts. First begin by making each .sh file executable:
 
 `chmod u+x partialrun.sh`
+
 `chmod u+x fullrun.sh`
 
 To run the program with the pregathered repository:
