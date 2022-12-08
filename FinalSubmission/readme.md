@@ -1,5 +1,5 @@
 ## Project overview - Wikipedia Webcrawler with the page rank algorithm
-(Video link)[https://drive.google.com/file/d/1B-8o4xKV_p3TTEfY1extllZnv511Jy95/view?usp=sharing]
+(https://drive.google.com/file/d/1B-8o4xKV_p3TTEfY1extllZnv511Jy95/view?usp=sharing)[video link]
 Out of respect for wikipedia's server load, please keep web crawl low and choose only a few core articles to mine (2-4). 2-4 will gather typically 200-2000 articles to make a subgraph out of. Core articles with a large amount of peripheral URLs will have a higher pagerank.
 
 ### Wikipedia Webcrawler
