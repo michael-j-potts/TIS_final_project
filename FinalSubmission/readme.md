@@ -58,7 +58,10 @@ input("Do you have a topic you would like to start with? (y/n))
 *The Pvector of each article is returned, and sorted to discover the 5 highest and 5 lower pageranked articles.*
 
 ## Detailed instructions for reviewers to set up anr run code, including possible errors or blockers
-To run the program, execute the file run.exe, then follow the prompts.
+To run the program, execute the file run.exe, then follow the prompts. First begin by making each .sh file executable:
+
+`chmod u+x partialrun.sh`
+`chmod u+x fullrun.sh`
 
 To run the program with the pregathered repository:
 
