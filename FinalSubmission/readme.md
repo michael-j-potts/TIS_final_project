@@ -72,11 +72,12 @@ To run the full program and manually gather the repository:
 
 `bash fullrun.sh`
 
-Some possible errors that might be encountered include 1).a connect error, 2).timeout error, or possibly 3).a naming error.
+Some possible errors that might be encountered include 1).a connect error, 2).timeout error, 3).a core file failed scrape or possibly 4).a naming error.
 
 To resolve each error, simply rerun the program. 
 
 To counteract these errors, I have implemented:
 1). This may be caused by port exhaustion. It may be affected by heavier internet usage. Some things to try to assist are: A request speed of 1 article every 1.5 seconds, and a small total gather rate of 2-4 core articles (200-2000 average articles).
 2). A try and exception clause for the request.get() functions which include a second try on the same URL after a 5 second timeout.
-3). Article Title monitoring through replacing / and . in a title with - and nothing respectively. This prevents file save errors when attempting to save the file as the titles name (ex .300_Winchester_Magnum) but preserves the URL as necessary.
+3). If a core file fails to scrape (due to the article not existing or being heavily incomplete), the count will become inaccurate and cause the PageRank program to fail. Restart the program to ensure all core files scrape successfully.
+4). Article Title monitoring through replacing / and . in a title with - and nothing respectively. This prevents file save errors when attempting to save the file as the titles name (ex .300_Winchester_Magnum) but preserves the URL as necessary.
